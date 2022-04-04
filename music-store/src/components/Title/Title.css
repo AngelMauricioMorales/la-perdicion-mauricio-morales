@@ -1,0 +1,7 @@
+.mainTitle {
+  background: url("./logo.png") no-repeat center / 30%;
+} 
+
+.mainTitleLinkText {
+  visibility: hidden;
+}

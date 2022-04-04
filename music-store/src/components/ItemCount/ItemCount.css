@@ -1,0 +1,66 @@
+.container {
+  border-top: 1px solid #3434367a;
+  border-bottom: 1px solid #3434367a;
+  margin-top: 1%;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  width: 90%;
+  margin: 5% auto 0 auto;
+  color: #3434367a;
+}
+
+.button,
+.buttonAdd {
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: xx-large;
+  border: 1px solid #3434367a;
+  border-radius: 10%;
+  width: 20%;
+  color: #3434367a;
+}
+
+.buttonAdd {
+  font-size: 0.9rem;
+  color: #000000;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 1.5% auto;
+  width: 50%;
+}
+
+.buttonAdd:hover,
+.button:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+.button:disabled {
+  border: 1px solid transparent;
+  color: transparent;
+}
+
+.buttonsOutput {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .buttonsContainer {
+    width: 90%;
+  }
+
+  .buttonAdd {
+    width: 40%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .buttonAdd {
+    width: 50%;
+  }
+}

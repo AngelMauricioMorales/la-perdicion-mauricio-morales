@@ -1,0 +1,76 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: #3434367a 5px 5px 5px 0;
+  font-size: 1rem;
+  margin: 5% 1%;
+}
+
+.listItem:hover {
+  border: 1px solid #3434367a;
+}
+
+.listItemArtistImg {
+  width: calc(300px + 1vh);
+  height: calc(300px + 1vh);
+}
+
+.listItemHelperContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.listItemArtistInfo {
+  width: 40%;
+  font-weight: bold;
+}
+
+.listItemArtistInfoPrice {
+  background: green;
+  color: #7fff00;
+  text-align: center;
+}
+
+.listItemArtistInfoBtn {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  font-weight: 900;
+  width: 50%;
+}
+
+.listItemArtistInfoBtn:hover {
+  color: rgb(201, 197, 0);
+  text-decoration: underline double;
+}
+
+@media screen and (min-width: 768px) {
+  .listItem {
+    font-size: 0.75rem;
+    margin: 1%;
+  }
+
+  .listItemArtistInfo {
+    width: 50%;
+  }
+
+  .listItemArtistInfoPlus {
+    width: 40%;
+  }
+
+  .listItemArtistImg {
+    width: calc(200px + 1vh);
+    height: calc(200px + 1vh);
+  }
+}

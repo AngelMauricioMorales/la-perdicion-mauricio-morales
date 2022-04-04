@@ -1,0 +1,12 @@
+.ItemListContainer {
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding-top: 5%;
+}
+
+.loading {
+  font-size: 2rem;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
